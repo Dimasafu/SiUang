@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dompet"
+            android:icon="@drawable/ic_credit_card_black_24dp"
+            android:title="Home" />
+    </group>
+    <item android:title="Laporan">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_harian"
+                    android:icon="@drawable/ic_assessment_black_24dp"
+                    android:title="Harian" />
+                <item
+                    android:id="@+id/nav_bulanan"
+                    android:icon="@drawable/ic_assessment_black_24dp"
+                    android:title="Bulanan" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Tools">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/ic_archive_black_24dp"
+            android:title="Nota" />
+    </group>
+    </item>
+
+</menu>
+

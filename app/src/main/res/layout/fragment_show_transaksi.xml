@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/show_transaksi"
+    tools:context=".ShowTransaksi">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/show_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2017-04-20"
+        android:textSize="15dp"
+        android:paddingTop="55dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/show_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp 80,000.00"
+        android:textAlignment="center"
+        android:padding="25dp"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/show_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="Keterangan"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+</FrameLayout>

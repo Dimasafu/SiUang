@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue"
+    tools:context="com.dimasafu.mobile.siuang.Welcome">
+
+    <!-- Login progress -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/fullscreen_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="Aplikasi Keuangan"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fullscreen_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:text="SIUANG"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:divider="#FFFFFF"
+            android:textColorHint="#FFFFFF">
+
+            <EditText
+                android:id="@+id/personal_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableBottom="#FFFFFF"
+                android:hint="Nama Anda"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_white"
+                android:onClick="save"
+                android:padding="10dp"
+                android:text="MASUK"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnfb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_sea"
+                android:onClick="save"
+                android:padding="10dp"
+                android:text="masuk ke facebook"
+                android:textColor="#FFFFFF" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+</FrameLayout>
